@@ -1,0 +1,76 @@
+Ignite Lab
+
+Tecnologias
+
+    - Vite
+    - GraphQL
+    - Tailwindcss
+    - AppoloGraphQL
+    - GraphCMS
+
+Criação do projeto
+
+    - npm create vite@lastet
+        -> nome do projet
+        -> framework do projeto
+        -> typescript
+
+        *acessar a pasta e executar o yarn
+
+
+        *yarn add phosphor-react
+
+        *yarn add classname
+
+
+Instalção dos frameworks de terceiros para a contrução do projeto
+
+    [] Para a estilizaçao da aplicação será usado o Tailwindcss
+        -> yarn add tailwindcss postcss autoprefixer -D
+        -> npx tailwindcss init -p ( cria o arquivo de configuração do postcss )
+
+--------------------------------------------------------------------------------
+
+CMS = Content Management System
+    -> Headless CMS (GraphQL): Painel de ADMIN (dados fornecidos através de uma API REST ou GraphQL)
+    -> React que consome ess API do CMS
+
+GraphQl
+    -> query = buscar dados
+    -> mutation = criar, alterar ou deletar dados
+
+Apollo
+    -> yarn add @apollo/client graphql
+
+GraphQL Code Generation (todos com dependencia de desenvolvimento)
+    -> yarn add @graphql-codegen/typescript-react-query
+    -> yarn add @graphql-codegen/typescript
+    -> yarn add @graphql-codegen/typescript-operations
+    -> yarn add @graphql-codegen/cli
+
+    -> yarn add @graphql-codegen/typescript-react-apollo
+
+Trabalhando com datas
+    -> yarn add date-fns
+
+
+Info:
+
+TSX -> TypeScript + JSX (xml dentro do Javascript)
+
+
+------------------------------------------------------------------------------------------
+
+vimejs -> biblioteca para colocar videos em sites
+
+    -> yarn add @vime/core @vime/react (optional --force)
+
+route -> rotas
+    -> yarn add react-router-dom@6
+
+-----------------------------------------------------------------------------------------
+
+Deply na Vercel utilizando o github
+
+  -> git init
+  -> git add .
